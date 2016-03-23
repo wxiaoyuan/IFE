@@ -1,0 +1,91 @@
+body{
+    background-color: gainsboro;
+    font-family:"黑体";
+}
+header{
+    height: 80px;
+    background-color:black ;
+}
+span{
+    float: left;
+    margin: 10px 30px;
+    line-height:40px;
+}
+nav {
+    float: right;
+}
+nav li{/*构建水平水平导航栏的方法之一是将 <li> 元素规定为行内元素：*/
+    line-height: 20px;/*设置方法对吗？????????????????????????????????????????????怎样让其居中*/
+    display:inline;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+li a{
+    color:white;
+}
+article,section{
+    margin: 20px 15px;
+    padding: 20px 25px;
+    border: 2px solid white;
+    background-color: white;
+}
+.img{
+    border: 1px solid gray;
+    margin: 15px 50px;
+    padding: 5px 15px;
+    width:150px;
+    text-align: center;
+}
+table{
+    border:1px solid gray;
+    width:100%;                                          /*要使表格与页面宽度一致，即使表格宽度为100%*/
+    font-size: 10px;
+}
+
+aside{
+    margin: 40px 15px 20px;
+    padding: 20px 25px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.error{
+    margin-left: 30%;                       /* ！！！！！！！设定文本的位置：相对定位，相对于左边框位置的30%*/
+    color: grey;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+label{
+    text-align: right;
+    width:30%;
+    float: left;                /*???????????????????????????????????????????为什么呢呢呢*/
+    margin-right: 15px;
+}
+.info{
+    margin:10px;
+    font-size: 14px;
+}
+.sub{
+    width: 100%;
+    border-radius:10px ;
+    background: blue;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    height: 45px;
+    font-weight: bold;
+
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height:80px ;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+}
